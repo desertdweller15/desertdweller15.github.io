@@ -93,23 +93,48 @@ nav a{
 	
 }
 
-section#about{
+.about{
 
 	margin-top: 20px;
 }
-.places h2{
+.work h2{
 	margin-left:.5em;
 
 }
-.places p{
+.contact h2{
+	margin-left:.5em;
+
+}
+.contact h2{
+	margin-left:.5em;
+
+}
+.purpose h2{
+	margin-left:.5em;
+
+}
+
+.about p{
 	padding-left:.5em;
 }
+
+.work p{
+	padding-left:.5em;
+}
+
+.contact p{
+	padding-left:.5em;
+}
+.contact p{
+	padding-left:.5em;
+}
+.contact p{
+	padding-left:.5em;
+}
+
 
 footer p:hover{
 	color:#B6B698;
 }
 
-.examples a{
-	display:inline-block;
 
-}

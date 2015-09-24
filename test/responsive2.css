@@ -85,15 +85,12 @@
     bottom:0;
   }
 
-
-#mobile {
-      float:none;
-      display: block;
-      font-size: 2em;
-      padding: 0px;
-      width: 100%;
-      text-align: center;
-      }
+    nav ul{
+    margin:.1em .1em .1em .1em;
+    font-size: 12px;    
+    
+    
+    }
   #video>div {
     width:100%;
   }
@@ -113,10 +110,6 @@
     left:10px;
     top:10px;
   }
-nav ul{
-  display:inline-block;
-}
+ 
 
 }
-
-
