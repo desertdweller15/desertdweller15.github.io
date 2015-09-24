@@ -1,0 +1,66 @@
+@import url(http://fonts.googleapis.com/css?family=Lekton:400,400italic);
+*{  
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+	
+}
+body { 
+	background-color:#A0A0A0;
+	color:#333;
+	font-size:18px;	
+	font-family:helvetica, arial, sans-serif;
+}
+
+nav {
+	background-color:rgb(0,0,0);
+	text-align:center;
+	padding:1em;
+}
+nav a {
+	color:#FFF;
+	padding:.5em;
+	margin:.5em;
+}
+nav a:hover{
+	color:rgb(153, 153, 0);
+}
+footer{	
+	padding:2em;
+	text-align:center;
+
+}
+h2{
+	text-align:center;
+	font-size:3em;
+}
+
+p {
+	line-height: 1.2em;
+}
+<<<<<<< HEAD
+.img-circle {
+    border-radius: 50%;
+}
+
+footer{
+	padding:1em;
+    margin:1em;
+    text-align:center;
+
+}
+
+=======
+>>>>>>> origin/master
+.wrapper { 
+	background-color:#fff;
+	max-width:70em;
+	margin:auto;
+}
+.clearfix:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
+}

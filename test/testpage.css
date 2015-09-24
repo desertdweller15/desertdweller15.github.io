@@ -1,0 +1,82 @@
+@import url(http://fonts.googleapis.com/css?family=Volkhov:400,700italic,700,400italic);
+@import url(http://fonts.googleapis.com/css?family=Average+Sans);
+*{ 
+	padding:0;
+	margin:.3em;
+	box-sizing:border-box;
+}
+body { 
+	background-color:#4C4C4C;
+	background:url("testpics/seattle.png");
+	background-repeat:no-repeat;
+    background-size:cover;
+	font-family: 'Average Sans', sans-serif;
+	font-size:18px;
+	background-repeat:none; 
+}
+nav {
+	text-align:center;
+	padding:1em;
+}
+nav p {
+	margin:.3em;
+	border-width:.3em;
+	padding:.3em;
+	color:#FFF;
+	font-family:helvetica, arial, sans-serif;
+	font-size:5em;
+	text-decoration: none;
+}
+
+ p{
+	color:#7A1F00;
+	font-size:2em;
+	text-align:center;
+	padding:1em;
+}
+
+iframe{
+	width:900px;
+	height:600px;
+}
+aside{
+	float:left;
+	width:260px;
+	padding:10px;
+	background:rgba(204, 204, 204,.8);
+	margin-left: auto ;
+	margin-right: auto ;
+	margin-top: -600px;
+}
+aside p{
+	font-size: 1.5em;
+	
+}
+aside ul{
+	font-size:2em;
+	text-align:center;
+}
+
+.wrapper {
+	background-color:rgba(233, 233, 233,.7);
+	max-width:120em;
+	margin:auto;
+}
+.clearfix:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0;
+	float:left; 
+	clear: both;
+}
+  @media (max-width: 800px) {
+    float: none; 
+    width: 100%;
+aside{
+	float:left;
+}
+
+}
+ 
+  

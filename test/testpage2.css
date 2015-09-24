@@ -1,0 +1,104 @@
+div {
+    height:200px;
+    width:200px;
+    display:block;
+    padding:.2em;
+    border-radius:100%;
+
+}
+div:hover{
+	opacity:0.8;
+}
+#one {
+    background-color:#FF0000;
+    display: inline-block;
+}
+
+#two {
+    background-color:#0000FF;
+     display: inline-block;
+}
+
+#three {
+    background-color:#E2BE22;
+     display: inline-block;
+}
+
+#four {
+    background-color:#008800;
+     display: inline-block;
+}
+#five {
+    background-color:#660033;
+    display: inline-block;
+}
+#six {
+    background-color:#66FF66;
+    display: inline-block; 
+}
+#seven {
+    background-color:#000;
+    display: inline-block;
+    
+}
+#eight {
+    background-color:#666;
+    display: inline-block; 
+}
+#nine{
+	background-color:#669900;
+	display: inline-block;
+	  
+
+@media only screen and (max-width: 800px) {
+div {
+    height:200px;
+    width:200px;
+    display:inline-block;
+}
+
+#one {
+    width:100%;
+    display: block;
+}
+
+#two {
+    width:100%;
+    display: block;
+}
+
+
+#three {
+    width:100%;
+    display: block;
+}
+
+
+#four {
+    width:100%;
+    display: block;
+}
+#five {
+       width:100%;
+       display: block;
+}
+#six {
+       width:100%;
+       display: block;
+
+}
+#seven {
+        width:100%;
+        display: block;
+}
+
+#eight {
+        width:100%;
+        display: block;
+}
+
+#nine {
+        width:100%;
+        display: block;
+}
+}
