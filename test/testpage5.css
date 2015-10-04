@@ -93,26 +93,26 @@ section#about{
 	margin-top: 20px;
 }
 #about h2{
-	margin-left:1em;
+	margin-left:20px;
 
 }
 #about p{
-	margin-left:1em;
+	margin-left:20px;
 }
 #contact h2{
-	margin-left:1em;
+	margin-left:20px;
 
 }
 #contact p{
-	margin-left:1em;
+	margin-left:20px;
 }
 
 #purpose h2{
-	margin-left:1em;
+	margin-left:20px;
 
 }
 #purpose p{
-	margin-left:1em;
+	margin-left:20px;
 }
 footer p:hover{
 	color:#B6B698;
