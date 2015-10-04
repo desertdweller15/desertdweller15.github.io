@@ -92,28 +92,7 @@ section#about{
 
 	margin-top: 20px;
 }
-section#about h2{
-	margin:20px;
 
-}
-section#about p{
-	margin:20px;
-}
-section#contact h2{
-	margin:20px;
-
-}
-section#contact p{
-	margin:20px;
-}
-
-section#purpose h2{
-	margin:20px;
-
-}
-section#purpose p{
-	margin:20px;
-}
 footer p:hover{
 	color:#B6B698;
 }
