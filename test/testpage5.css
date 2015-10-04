@@ -99,7 +99,21 @@ section#about{
 #about p{
 	margin-left:1em;
 }
+#contact h2{
+	margin-left:1em;
 
+}
+#contact p{
+	margin-left:1em;
+}
+
+#purpose h2{
+	margin-left:1em;
+
+}
+#purpose p{
+	margin-left:1em;
+}
 footer p:hover{
 	color:#B6B698;
 }
