@@ -92,11 +92,11 @@ section#about{
 
 	margin-top: 20px;
 }
-.about h2{
+#about h2{
 	margin-left:.5em;
 
 }
-.about p{
+#about p{
 	padding-left:.5em;
 }
 
