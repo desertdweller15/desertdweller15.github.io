@@ -97,7 +97,7 @@ section#about{
 
 }
 #about p{
-	padding-left:.5em;
+	margin-left:.5em;
 }
 
 footer p:hover{
