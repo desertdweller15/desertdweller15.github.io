@@ -92,26 +92,26 @@ section#about{
 
 	margin-top: 20px;
 }
-#about h2{
+section#about h2{
 	margin:20px;
 
 }
-#about p{
+section#about p{
 	margin:20px;
 }
-#contact h2{
-	margin:20px;
-
-}
-#contact p{
-	margin:20px;
-}
-
-#purpose h2{
+section#contact h2{
 	margin:20px;
 
 }
-#purpose p{
+section#contact p{
+	margin:20px;
+}
+
+section#purpose h2{
+	margin:20px;
+
+}
+section#purpose p{
 	margin:20px;
 }
 footer p:hover{
