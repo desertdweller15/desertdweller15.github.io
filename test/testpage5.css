@@ -50,8 +50,7 @@ nav{
   max-width:100%;
   opacity:.7;
   height: 30px;
-  
-  
+ 
 }
 
 a{
@@ -104,21 +103,5 @@ footer p:hover{
 
 }
 
-nav[role="navigation"] {
- 
-  background-color:#60220C; 
-  display: block;
-  margin: auto;
-  font-family: 'Lato', sans-serif;
-  max-width:100%;
-  height: 30px;
-  
-}
 
-nav[role="navigation"] a {font-size:2em; color: #fff; text-decoration: none; padding: 0 15px; line-height: 35px;}
-nav[role="navigation"] li {width:50%; height: auto; text-align: center; background: #000; border: 1px solid #fff;padding: 10px 0;list-style-type: none;float:right; overflow:visible;}
-nav[role="navigation"] span {font-size: 30px; float:left;}
-nav[role="navigation"] li:hover {background-color: #49493D; text-decoration: underline;}
-.menu {display: none;}
-width: 60px;
 
