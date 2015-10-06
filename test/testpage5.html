@@ -9,8 +9,8 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script>
     $(document).ready(function(){
-     $(".toggle").click(function() {
-    $( ".menu" ).stop().slideToggle( "fast" );
+     $("button").click(function() {
+    $( "ul" ).toggle( "fast" );
     });
     $(".btn").click(function(){
         alert("Thanks for visiting my website!");
@@ -26,14 +26,10 @@
 
 </header>	
 <div class="wrapper">
-	
-<nav role="navigation">
-  <a class="toggle" href="#"><span>&#9776;</span> </a>
-  <ul class="menu" align="cent">
-    <li><a href="#">Home</a></li>
-    <li><a href="#">Interests</a></li>
-    <li><a href="#">Portfolio</a></li>
-  </ul>
+<button>&#9776;</button>	
+ <nav>
+<ul>Home</ul>
+<ul>interests</ul>
  </nav>
 
 <div class="logo">
