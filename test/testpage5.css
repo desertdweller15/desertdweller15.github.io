@@ -107,6 +107,16 @@ nav a{
 	margin-left: 5px;
 }
 
+.message p{ 
+
+	margin-left: 5px;
+}
+
+.btn2{
+     
+      margin-left: 5px;
+}
+
 footer p:hover{
 	color:#B6B698;
 }
