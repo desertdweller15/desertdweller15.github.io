@@ -69,14 +69,13 @@ a:hover{
 
 nav ul{
 	display:inline-block;
-	font-color:#ccc;
+	color:#ccc;
 	margin-top:10px;
 	text-align:center;
 }
 
 nav a:hover {
 	color:#96966C;
-	width:3px;
 	text-decoration: underline;
 }
 
