@@ -115,6 +115,7 @@ nav a{
 .btn2{
      
       margin-left: 5px;
+      cursor:pointer;
 }
 
 footer p:hover{
