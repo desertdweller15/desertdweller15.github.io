@@ -58,10 +58,7 @@ a{
 	text-decoration: none;
 }
 
-#fblogo{
-	width:1px;
-   height:1px;
-}
+
 
 a:hover{
 	text-decoration: underline;
@@ -75,7 +72,7 @@ nav ul{
 }
 
 nav a:hover {
-	color:#96966C;
+	background-color:#96966C;
 	text-decoration: underline;
 }
 
