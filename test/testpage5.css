@@ -82,12 +82,29 @@ nav a{
 	color:#fff;
 	margin-top:2px;
 	text-align:center;
-	
 }
 
-section#about{
+.about{
 
-	margin-top: 20px;
+	margin-top: 2px;
+}
+
+.contact h2{
+
+	margin-left: 5px;
+}
+
+.contact p{
+
+	margin-left: 5px;
+}
+.examples h2{
+
+	margin-left: 5px;
+}
+.examples p{ 
+
+	margin-left: 5px;
 }
 
 footer p:hover{
