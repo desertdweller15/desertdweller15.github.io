@@ -122,8 +122,8 @@ footer p:hover{
 	color:#B6B698;
 }
 
-.examples a{
-	display:inline-block;
+#examples a{
+	display:block;
 
 }
 
