@@ -11,7 +11,7 @@ body {
 
 p{
 	font-size:1em;
-	font-family: 'Quattrocento Sans', sans-serif;
+	font-family:'Quattrocento Sans', sans-serif;
 }
 
 
@@ -19,8 +19,6 @@ p{
 	background-color:#D6D6D6;
 	max-width:1100px;
 	margin:0 auto;
-	
-
 }
 
 footer{
@@ -59,11 +57,6 @@ a{
 	text-decoration: none;
 }
 
-#fblogo{
-	width:1px;
-   height:1px;
-}
-
 a:hover{
 	text-decoration: underline;
 }
@@ -90,8 +83,23 @@ nav a{
 }
 
 .about{
-
 	margin-top: 5px;
+}
+.about h2{
+	margin-left:.5em;
+	
+}
+.about p{
+	margin-left:.5em;
+	
+}
+.purpose h2{
+	margin-left:.5em;
+	
+}
+.purpose p{
+	margin-left:.5em;
+	
 }
 .work h2{
 	margin-left:.5em;
