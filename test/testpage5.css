@@ -119,17 +119,17 @@ nav a{
 }
 
 .work h2{
-	margin-left:.5em;
+	padding-left:.5em;
 }
 .contact p{
-	margin-left:.5em;
+	padding-left:.5em;
 }
 .examples h2{
 
-	margin-left: .5em;
+	padding-left:.5em;
 }
 .btn2{
-        margin-left:.5em;	
+        padding-left:.5em;	
 }
 footer p:hover{
 	color:#B6B698;
