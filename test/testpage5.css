@@ -124,9 +124,8 @@ nav a{
 .contact p{
 	padding-left:.5em;
 }
-.examples h2{
-
-	padding-left:.5em;
+.examples p{
+        display:inline-block;
 }
 .btn2{
         padding-left:.5em;	
