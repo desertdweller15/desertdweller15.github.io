@@ -124,11 +124,15 @@ nav a{
 .contact p{
 	padding-left:.5em;
 }
+.contact h2{
+	padding-left:.5em;
+}
 .examples p{
         display:block;
 }
 .btn2{
-        padding-left:.5em;	
+        padding-left:.5em;
+        cursor:pointer;
 }
 footer p:hover{
 	color:#B6B698;
