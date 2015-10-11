@@ -1,7 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Quattrocento+Sans);
 body {
-	background: radial-gradient(gray, #5B5B4C, gray);
-	opacity: .9;
+	background: -webkit-linear-gradient(gray, #5B5B4C, gray);
 	background-attachment:fixed;
 	background-size:cover;
 	font-size:14px;
