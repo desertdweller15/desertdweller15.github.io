@@ -111,9 +111,6 @@ nav a{
 	margin-left:.5em;
 }
 
-.work h2{
-	padding-left:.5em;
-}
 .contact p{
 	padding-left:.5em;
 }
@@ -124,7 +121,7 @@ nav a{
         display:inline-block;
 }
 .btn2{
-        padding-left:.5em;
+        margin-left:.5em;
         cursor:pointer;
 }
 footer p:hover{
