@@ -131,6 +131,12 @@ nav a{
         margin-left:.5em;
         cursor:pointer;
 }
+.btn3{
+        cursor:pointer;
+}
+.btn4{
+        cursor:pointer;
+}
 .message p{
 	margin-left:.5em;
 }
