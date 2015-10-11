@@ -111,25 +111,25 @@ nav a{
 }
 
 .about p{
-	padding-left:.5em;
+	margin-left:.5em;
 }
 
 .work p{
-	padding-left:.5em;
+	margin-left:.5em;
 }
 
 .work h2{
-	padding-left:.5em;
+	margin-left:.5em;
 }
 .contact p{
-	padding-left:.5em;
+	margin-left:.5em;
 }
 .examples h2{
 
 	margin-left: .5em;
 }
 .btn2{
-       padding-left:.5px;	
+        margin-left:.5em;	
 }
 footer p:hover{
 	color:#B6B698;
