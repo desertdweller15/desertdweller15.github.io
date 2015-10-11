@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Quattrocento+Sans);
 body {
 	background: radial-gradient(gray, #5B5B4C, gray);
 	opacity: .9;
@@ -10,6 +11,7 @@ body {
 
 p{
 	font-size:1em;
+	font-family: 'Quattrocento Sans', sans-serif;
 }
 
 
@@ -29,10 +31,6 @@ footer{
 
 }
 
-img:hover{
-
-	opacity: .7;
-}
 
 footer p{
 
