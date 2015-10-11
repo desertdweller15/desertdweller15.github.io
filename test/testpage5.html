@@ -9,11 +9,16 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	
 	<script>
-    $(document).ready(function(){
-    $("button").click(function(){
-        $("ul").toggle();
+     $(document).ready(function(){
+     $(".btn1").click(function() {
+    $( "ul" ).toggle();
+    });
+    $(".btn2").click(function(){
+        alert("Thanks for visiting my webpage!");
     });
 });
+
+
 </script>
 
 </head>
@@ -26,7 +31,7 @@
 </header>	
 <div class="wrapper">
 		<nav>
-          <button>&#9776;</button>
+            <button class="btn1">&#9776;</button>
             <ul><a href="#">Home</ul></a>
             <ul><a href="#">Interests</ul></a>
 
@@ -68,6 +73,16 @@
 			</div>
 
 			</section>
+   
+    <button class="btn2">Message</button>
+      
+      <section class="message">
+     
+      <p>Click the message button for a message.</p>
+     
+      </section>
+       
+    
     <footer>
 	<p> Copyright 2015 © Desertdweller</p>	
 
