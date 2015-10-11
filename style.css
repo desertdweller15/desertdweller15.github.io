@@ -10,8 +10,9 @@
 body { 
 	background-color:#921414;
 	color:#333;
-	font-family: 'Average Sans', sans-serif;
-	font-size:20px;
+	font-size:14px;
+	font-family: 'Roboto', sans-serif;
+	font-weight:100;
 }
 
 section {
