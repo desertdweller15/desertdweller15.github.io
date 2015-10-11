@@ -92,7 +92,7 @@ nav a{
 
 .about{
 
-	margin-top: 20px;
+	margin-top: 5px;
 }
 .work h2{
 	margin-left:.5em;
@@ -112,10 +112,10 @@ nav a{
 }
 
 .contact p{
-	padding-left:.5em;
+        margin-left:.5em;
 }
 .contact h2{
-	padding-left:.5em;
+	margin-left:.5em;
 }
 .examples p{
         display:inline-block;
@@ -124,6 +124,10 @@ nav a{
         margin-left:.5em;
         cursor:pointer;
 }
+.message p{
+	margin-left:.5em;
+}
+
 footer p:hover{
 	color:#B6B698;
 }
