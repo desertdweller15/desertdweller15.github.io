@@ -108,7 +108,6 @@ nav a{
 }
 .purpose h2{
 	margin-left:.5em;
-
 }
 
 .about p{
@@ -119,17 +118,15 @@ nav a{
 	padding-left:.5em;
 }
 
-.contact p{
+.work h2{
 	padding-left:.5em;
 }
 .contact p{
 	padding-left:.5em;
 }
-.contact p{
-	padding-left:.5em;
+.btn2{
+       padding-left:.5em;	
 }
-
-
 footer p:hover{
 	color:#B6B698;
 }
