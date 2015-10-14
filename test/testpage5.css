@@ -35,11 +35,16 @@ footer p{
 }
 
 img{
-  float: left;
+  float:left;
   width:10em;
   height:10em;
   padding:10px 10px 10px 10px;
  
+}
+
+img:hover{
+	opacity:.9;
+	
 }
 
 nav{
