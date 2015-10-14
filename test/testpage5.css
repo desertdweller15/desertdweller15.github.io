@@ -43,6 +43,11 @@ img{
  
 }
 
+img:hover{
+	opacity:.8;
+	
+}
+
 nav{
   background-color:#60220C; 
   max-width:100%;
