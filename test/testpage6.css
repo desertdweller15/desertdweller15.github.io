@@ -1,0 +1,39 @@
+body{
+	
+	background-image:url('http://universe-beauty.com/albums/userpics/1/7/stars-and-planets-photo-img376-JPG.jpg');
+	background-attachment:fixed;
+	background-size:cover;
+	background-repeat: no-repeat;
+	font-size:16px;
+	font-family: 'Roboto', sans-serif;
+	font-weight:50;
+}
+
+.wrapper{
+
+    background-color:#ccc;
+	max-width:1200px;
+	margin:0 auto;
+}
+
+nav{
+   width:100%;
+   opacity.8;
+   color:#000;
+
+}
+
+nav ul:hover{
+	background-color:ccc;
+}
+
+nav ul{
+
+	display: inline-block;
+	color:#aaa;
+}
+
+p{
+
+  color:#fff;	
+}

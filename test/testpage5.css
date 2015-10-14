@@ -1,9 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Quattrocento+Sans);
+
 body {
 	background: -webkit-linear-gradient(gray, #5B5B4C, gray);
 	background-attachment:fixed;
 	background-size:cover;
-	font-size:14px;
+	font-size:16px;
 	font-family: 'Roboto', sans-serif;
 	font-weight:100;
 }
@@ -82,7 +83,7 @@ nav a{
 }
 
 .about{
-	margin-top: 5px;
+	margin-top: 2px;
 }
 .about h2{
 	margin-left:.5em;

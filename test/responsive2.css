@@ -1,115 +1,95 @@
 @media only screen and (min-width:1261px) and (max-width:1380px) {
-  section#splash div {
-    padding:15em 0 0 5em;
-  }
 
-  #mobile{
-    display: none;
-  }
 }
 @media only screen and (min-width:1045px) and (max-width:1260px) {
-  section#splash div {
-    padding:15em 0 0 1em;
-  }
+ 
 }
 @media only screen and (min-width:962px) and (max-width:1044px) {
-  section#splash div {
-    padding:15em 0 0 1em;
-  }
- 
-  .columns {
-    margin-bottom:5em;
-    min-height:18em;
-    padding:0 2em;
-    position:relative;
-    width:50%;
-  }
-  .cta2 {
-    position:absolute;
-    bottom:0;
-  }
-  #video>div {
-    width:50%;
-  }
+
 }
 @media only screen and (min-width:700px) and (max-width:961px) {
-  section#splash div {
-    padding:15em 0 0 1em;
-  }
- 
-  .columns {
-    margin-bottom:5em;
-    min-height:18em;
-    padding:0 2em;
-    position:relative;
-    width:50%;
-  }
-  .cta2 {
-    position:absolute;
-    bottom:0;
-  }
-  #video>div {
-    width:50%;
-  }
-  section#cast .places {
-    float:none;
-    margin:1em auto;
-    text-align:left;
-    width:75%;
-  }
-  blockquote {
-    padding:2em;
-    width:100%;
-  }
-  blockquote:before {
-    position:absolute;
-    left:10px;
-    top:10px;
-  }
+ .contact{
+  width:100%;
+  
+ }
+  .contact p{
+  width: 98%;
+  font-size: 14px;
+ }
+ .work{
+  width:100%;
+ }
+  .work p{
+  width:98%;
+  font-size: 14px;
+ }
+ .purpose{
+  width: 100%;
+ }
+ .purpose p{
+  width: 98%;
+  font-size: 14px;
+ }
+ .about{
+  width: 100%;
+
+
+ }
+
+  .about p{
+  width: 98%;
+  font-size: 14px;
+
+ }
 }
 @media only screen and (max-width:699px) {
-  section#splash div {
-    padding:15em 0 0 1em;
-  }
- 
-  .columns {
-    float:none;
-    margin:0 auto 5em;
-    min-height:18em;
-    padding:0 2em;
-    position:relative;
-    width:90%;
-  }
-  .cta2 {
-    position:absolute;
-    bottom:0;
-  }
-
+   body{
+    padding:.2px; 
+   }
     nav ul{
     margin:.1em .1em .1em .1em;
     font-size: 12px;    
-    
-    
     }
-  #video>div {
-    width:100%;
-  }
-  section#cast .places {
-    float:none;
-    margin:1em auto;
-    text-align:left;
-    width:90%;
-  }
-  blockquote {
-    padding:2em;
-    width:100%;
-  }
-}
-  blockquote:before {
-    position:absolute;
-    left:10px;
-    top:10px;
-  }
- 
+ .contact{
+  width:100%;  
+ }
+  .contact p{
+  width: 98%;
+  font-size: 13px;
+ }
+ .work{
+  width:100%;
 
+ }
+  .work p{
+  width:98%;
+  font-size: 13px;
+ }
+ .purpose{
+  width: 100%;
+
+ }
+ .purpose p{
+  width: 98%;
+  font-size: 13px;
+ }
+ .about{
+  width: 100%;
+  
+
+ }
+  .about p{
+  width: 98%;
+  font-size: 13px;
+
+ }
+ 
+.message p{
+  font-size: 13px;
+ 
+}
+
+ img{
+  padding: 5px 5px 5px 5px;
+ }
 }

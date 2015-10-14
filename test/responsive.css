@@ -36,7 +36,7 @@
     width:50%;
   }
  
-  section#cast .places {
+  section#locations .places {
     float:none;
     margin:1em auto;
     text-align:left;
@@ -56,14 +56,9 @@
     position:relative;
     width:90%;
   }
-  .cta2 {
-    position:absolute;
-    bottom:0;
-  }
-  #video>div {
-    width:100%;
-  }
-  section#cast .places {
+  
+
+  section#locations .places {
     float:none;
     margin:1em auto;
     text-align:left;
