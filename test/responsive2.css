@@ -8,6 +8,7 @@
 
 }
 @media only screen and (min-width:700px) and (max-width:961px) {
+
  .contact{
   width:100%;
   
@@ -46,10 +47,17 @@
    body{
     padding:.2px; 
    }
+
+
+}
+@media only screen and (max-width:699px) {
+  
+
     nav ul{
     margin:.1em .1em .1em .1em;
     font-size: 12px;    
     }
+
  .contact{
   width:100%;  
  }
@@ -92,4 +100,6 @@
  img{
   padding: 5px 5px 5px 5px;
  }
+
+ 
 }
