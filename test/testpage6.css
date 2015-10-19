@@ -1,3 +1,11 @@
+* { margin:0; padding:0; box-sizing:border-box; 
+	transition: all 250ms cubic-bezier(0.420, 0.000, 0.580, 1.000); 
+    transition-timing-function: cubic-bezier(0.420, 0.000, 0.580, 1.000);
+}
+p + p { margin-top: 1em; }
+p + a { margin-top:1.5em; }
+article + article { margin-top:1em; }
+
 body{
 	
 	background-image:url('http://universe-beauty.com/albums/userpics/1/7/stars-and-planets-photo-img376-JPG.jpg');
@@ -11,29 +19,36 @@ body{
 
 .wrapper{
 
-        background-color:#aaa;
+    background-color:#161616;
+	opacity: .8;
 	max-width:1100px;
 	margin:0 auto;
 }
 
-nav{
-   width:100%;
-   opacity.8;
-   color:#000;
-
-}
-
-nav ul:hover{
-	background-color:ccc;
-}
-
-nav ul{
-
-	display: inline-block;
-	color:#aaa;
+img{
+	opacity:.9;	
 }
 
 p{
 
-  color:#fff;	
+  color:#fff;
+  text-align: center; 	
+}
+
+section {
+	padding:5em 0;
+}
+
+button{
+
+	width:60px;
+	height:30px;
+	background-color:#A3A300;
+
+}
+
+button p{
+color:#000;
+font-size: 16px;
+	
 }
