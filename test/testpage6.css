@@ -52,3 +52,11 @@ color:#000;
 font-size: 16px;
 	
 }
+
+.clearfix:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
+}
