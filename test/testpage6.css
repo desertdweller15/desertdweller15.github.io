@@ -53,6 +53,10 @@ font-size: 16px;
 	
 }
 
+button p:hover{
+text-decoration:underline;
+	
+}
 .clearfix:after { 
 	content: "."; 
 	visibility: hidden; 
