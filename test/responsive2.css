@@ -11,12 +11,13 @@
 
  .contact{
   width:100%;
-  
  }
+ 
   .contact p{
   width: 98%;
   font-size: 14px;
  }
+ 
  .work{
   width:100%;
  }
@@ -24,26 +25,28 @@
   width:98%;
   font-size: 14px;
  }
+ 
  .purpose{
   width: 100%;
  }
+ 
  .purpose p{
   width: 98%;
   font-size: 14px;
  }
+ 
  .about{
   width: 100%;
-
-
  }
-
+ 
   .about p{
   width: 98%;
   font-size: 14px;
-
  }
-}
 
+ img{
+  padding: 7px 7px 7px 7px;
+ }
 }
 @media only screen and (max-width:699px) {
   
@@ -79,7 +82,6 @@
  .about{
   width: 100%;
   
-
  }
   .about p{
   width: 98%;
