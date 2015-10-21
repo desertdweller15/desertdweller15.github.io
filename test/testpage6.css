@@ -57,10 +57,39 @@ button p:hover{
 text-decoration:underline;
 	
 }
-.clearfix:after { 
+.clearfix { 
 	content: "."; 
 	visibility: hidden; 
 	display: block; 
 	height: 0; 
 	clear: both;
 }
+
+.luke{
+	background:rgba(70, 70, 70,.5);
+	color:#fff;
+	float:left;
+	margin:.5%;
+	min-height:16em;
+	padding:1em 2em 1em 1em;
+	position:relative;
+	text-align:justify;
+	width:99%;
+	}
+
+.vader{
+	background:rgba(107, 107, 107,.5);
+	color:#fff;
+	float:left;
+	margin:.5%;
+	min-height:16em;
+	padding:1em 2em 1em 1em;
+	position:relative;
+	text-align:justify;
+	width:99%;
+	}
+	iframe{
+	margin-top: 5px;
+	margin-bottom: 10px;
+
+	}
