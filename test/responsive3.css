@@ -1,0 +1,65 @@
+@media only screen and (min-width:1261px) and (max-width:1380px) {
+
+}
+@media only screen and (min-width:1045px) and (max-width:1260px) {
+ 
+}
+@media only screen and (min-width:962px) and (max-width:1044px) {
+
+}
+@media only screen and (min-width:700px) and (max-width:961px) {
+iframe{
+  width: 100;
+}
+
+}
+@media only screen and (max-width:699px) {
+  iframe{
+  width: 100;
+}
+
+
+.luke{
+  
+  width:99%;
+  }
+
+
+.vader{
+  
+  width:99%;
+  }
+
+
+.leia{
+  
+  width:99%;
+  }
+
+ 
+}
+@media only screen and (min-width:350px) and (max-width: 698px) {
+  iframe{
+  width: 100;
+}
+
+
+.luke{
+  
+  width:99%;
+  }
+
+
+.vader{
+  
+  width:99%;
+  }
+
+
+.leia{
+  
+  width:99%;
+  }
+
+ 
+}

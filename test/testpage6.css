@@ -36,7 +36,7 @@ p{
 }
 
 section {
-	padding:5em 0;
+	padding:3em 0;
 }
 
 button{
@@ -57,13 +57,7 @@ button p:hover{
 text-decoration:underline;
 	
 }
-.clearfix { 
-	content: "."; 
-	visibility: hidden; 
-	display: block; 
-	height: 0; 
-	clear: both;
-}
+
 
 .luke{
 	background:rgba(70, 70, 70,.5);
@@ -75,6 +69,11 @@ text-decoration:underline;
 	position:relative;
 	text-align:justify;
 	width:99%;
+	}
+.luke img{
+		border-radius: 50%;
+		height: 10%;
+		width: 15%;
 	}
 
 .vader{
@@ -88,8 +87,49 @@ text-decoration:underline;
 	text-align:justify;
 	width:99%;
 	}
+
+	.vader img{
+		border-radius: 50%;
+		height: 10%;
+		width: 15%;
+	}
+
+	.leia{
+	background:rgba(161, 161, 161,.5);
+	color:#fff;
+	float:left;
+	margin:.5%;
+	min-height:16em;
+	padding:1em 2em 1em 1em;
+	position:relative;
+	text-align:justify;
+	width:99%;
+	}
+
+	.leia img{
+		border-radius: 50%;
+		height: 10%;
+		width: 15%;
+	}
+
+
+
 	iframe{
 	margin-top: 5px;
 	margin-bottom: 10px;
 
 	}
+
+footer{
+	height: 10%;
+	width: 100%;
+}
+
+footer p{
+	text-align: center;
+	color:#fff;
+}
+
+footer p:hover{
+	color:#B6B698;
+}
