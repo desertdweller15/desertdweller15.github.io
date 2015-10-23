@@ -82,8 +82,8 @@ iframe{
 }
 @media only screen and (max-width: 398px) {
   iframe{
-  width: 60%;
-  height:60%;
+  width: 70%;
+  height:70%;
 }
 .luke img{
   height: 7.5%;
