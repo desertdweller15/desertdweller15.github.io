@@ -56,8 +56,8 @@ iframe{
   }
 
 .luke img{
-  height: 7%;
-  width: 12%;
+  height: 7.5%;
+  width: 12.5%;
   }
 
 .vader{
@@ -66,8 +66,8 @@ iframe{
   }
 
 .vader img{
-  height: 7%;
-  width: 12%;
+  height: 7.5%;
+  width: 12.5%;
   }
 
 .leia{
@@ -75,14 +75,14 @@ iframe{
   }
 
 .leia img{
-  height: 7%;
-  width: 12%;
+  height: 7.5%;
+  width: 12.5%;
   }
  
 }
 @media only screen and (max-width: 398px) {
    iframe{
-  width: 100;
+  width: 60%;
   height:60%;
 }
  
