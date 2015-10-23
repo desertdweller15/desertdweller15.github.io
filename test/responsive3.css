@@ -9,13 +9,44 @@
 }
 @media only screen and (min-width:700px) and (max-width:961px) {
 iframe{
-  width: 100;
+  width: 100%;
 }
 
+.luke{
+  
+  width:99%;
+  }
+	.luke img{
+		height: 8%;
+		width: 13%;
+	}
+
+.vader{
+  
+  width:99%;
+  }
+	
+	.vader img{
+		height: 8%;
+		width: 13%;
+	}
+
+
+.leia{
+  
+  width:99%;
+  }
+	
+	.leia img{
+		height: 8%;
+		width: 13%;
+	}
+
+ 
 }
-@media only screen and (max-width:699px) {
+@media only screen and (min-width:399px) and (max-width: 699px) {
   iframe{
-  width: 100;
+  width: 100%;
 }
 
 
@@ -38,28 +69,11 @@ iframe{
 
  
 }
-@media only screen and (min-width:350px) and (max-width: 698px) {
-  iframe{
+@media only screen and (max-width: 398px) {
+   iframe{
   width: 100;
+  height:60%;
 }
-
-
-.luke{
-  
-  width:99%;
-  }
-
-
-.vader{
-  
-  width:99%;
-  }
-
-
-.leia{
-  
-  width:99%;
-  }
-
+ 
  
 }
