@@ -11,7 +11,7 @@
 	<script>
      $(document).ready(function(){
      $(".btn1").click(function() {
-    $( "ul" ).toggle();
+    	$( "ul" ).toggle();
     });
     $(".btn2").click(function(){
         alert("Thanks for visiting my webpage!");
@@ -21,7 +21,24 @@
     });
     $(".btn4").click(function(){
         $("img").fadeIn(2000);
-   
+    });
+    $(".btn4").mouseover(function(){
+        $(".btn4").css("background-color", "#E69400");    
+    });
+    $(".btn4").mouseout(function(){
+        $(".btn4").css("background-color", "#D9D9D9");
+    });    
+    $(".btn3").mouseover(function(){
+        $(".btn3").css("background-color", "#E69400");
+    });
+    $(".btn3").mouseout(function(){
+        $(".btn3").css("background-color", "#D9D9D9");
+    });
+    $(".btn2").mouseover(function(){
+        $(".btn2").css("background-color", "#E69400");
+    });   
+    $(".btn2").mouseout(function(){
+        $(".btn2").css("background-color", "#D9D9D9");
     });
 });
 
@@ -34,19 +51,22 @@
 <header>
 
 
-
 </header>	
+
 <div class="wrapper">
+	   
 	    <nav>
+            
             <button class="btn1">&#9776;</button>
             <ul><a href="#">Home</ul></a>
             <ul><a href="#">Interests</ul></a>
 
-
-
 	</nav>
+
 <div class="logo" align="center">
+
 <img src="../test/pictures/logo.png" alt="websiite logo" title="Webpage logo">
+
 </div>
 <section class="about">
 				
@@ -54,6 +74,9 @@
 				<p>Hi my name is Brian and I am a 28 year old male.I have lived all over the place and would like to think I've caught a little bit of the "travel bug". I was born in Alabama, and have lived in total of 5 states and South Korea.</p>
 				
 			</section>
+			
+  			<hr>
+
 			<section class="purpose">
 				
 				<h2> Purpose of Webpage</h2>
@@ -62,12 +85,18 @@
 
 				
 			</section>
+
+            <hr>
+			
 			<section class="contact">
 				<h2>Get in touch</h2>
 				<p>If you would like to get in contact with me, please send an email to:<a href="mailto:bcoutee11@gmail.com" target="_blank">bcoutee11@gmail.com</a></p>
 				
 
 			</section>
+			
+ 			<hr>
+			
 			<section class="work">
 				
 				<h2>Examples of Work</h2>

@@ -17,6 +17,7 @@ p{
 
 
 .wrapper {
+	
 	background-color:#D6D6D6;
 	max-width:1100px;
 	margin:0 auto;
@@ -26,14 +27,13 @@ footer{
   background-color:#000; 
   max-width:100%;
 
-
 }
 
 
 footer p{
 
-	text-align: center;
-	color:#fff;
+text-align: center;
+color:#fff;
 }
 
 img{
@@ -50,7 +50,7 @@ img:hover{
 }
 
 nav{
-  background-color:#60220C; 
+  background-color:#996633; 
   max-width:100%;
   opacity:.7;
   height: 30px;
@@ -74,8 +74,7 @@ nav ul{
 }
 
 nav a:hover {
-	color:#96966C;
-	width:3px;
+	color:#B6B698;
 	text-decoration: underline;
 }
 
@@ -83,9 +82,7 @@ nav a{
 	text-decoration:none;
 	padding:10px;
 	color:#fff;
-	margin-top:2px;
-	text-align:center;
-	
+	margin-top:2px;	
 }
 
 .about{
@@ -150,5 +147,7 @@ nav a{
 footer p:hover{
 	color:#B6B698;
 }
+
+	
 
 
