@@ -1,9 +1,49 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<title>Test Page 2</title>
-	<link rel="stylesheet" type="text/css" href="testpage2.css">
+
+<meta charset="utf-8">
+<title>Test Page 2</title>
+<link rel="stylesheet" type="text/css" href="testpage2.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	
+<script>
+  $(document).ready(function(){
+     $(".btn1").click(function() {
+    	$( "#one" ).css({"border-radius":"50%"});
+    });
+    $(".btn2").click(function(){
+        alert("Thanks for visiting my webpage!");
+    });
+      $(".btn3").click(function(){
+        $("img").fadeOut(2000);
+    });
+    $(".btn4").click(function(){
+        $("img").fadeIn(2000);
+    });
+    $(".btn4").mouseover(function(){
+        $(".btn4").css("background-color", "#E69400");    
+    });
+    $(".btn4").mouseout(function(){
+        $(".btn4").css("background-color", "#D9D9D9");
+    });    
+    $(".btn3").mouseover(function(){
+        $(".btn3").css("background-color", "#E69400");
+    });
+    $(".btn3").mouseout(function(){
+        $(".btn3").css("background-color", "#D9D9D9");
+    });
+    $(".btn2").mouseover(function(){
+        $(".btn2").css("background-color", "#E69400");
+    });   
+    $(".btn2").mouseout(function(){
+        $(".btn2").css("background-color", "#D9D9D9");
+    });
+});	
+	
+	
+	
+</script>	
 	
 </head> 
 <body>
