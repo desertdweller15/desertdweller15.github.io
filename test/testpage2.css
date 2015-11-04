@@ -1,6 +1,6 @@
 div {
     height:90px;
-    width:70px;
+    width:90px;
     margin:2em;
 }
 div:hover{
@@ -8,16 +8,19 @@ div:hover{
 }
 #one {
     background-color:#FF0000;
+    display:inline-block;
     
 }
 
 #two {
     background-color:#0000FF;
+    display:inline-block;
      
 }
 
 #three {
     background-color:#E2BE22;
+    display:inline-block;
      
 }
 
