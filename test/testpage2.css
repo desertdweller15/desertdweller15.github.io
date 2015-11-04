@@ -14,19 +14,19 @@ div:hover{
 }
 #one {
     background-color:#FF0000;
-    display:block;
+    display:inline-block;
     
 }
 
 #two {
     background-color:#0000FF;
-    display:block;
+    display:inline-block;
      
 }
 
 #three {
     background-color:#E2BE22;
-    display:block;
+    display:inline-block;
      
 }
 
