@@ -12,13 +12,13 @@ div:hover{
 }
 #one {
     background-color:#FF0000;
-    display:inline-block;
+    display:block;
     
 }
 
 #two {
     background-color:#0000FF;
-    display:inline-block;
+    display:block;
      
 }
 
