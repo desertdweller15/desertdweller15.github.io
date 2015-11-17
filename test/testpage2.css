@@ -27,6 +27,25 @@ div:hover{
     display:block;
      
 }
+#four{
+	
+width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    -webkit-animation: myfirst 4s infinite; 
+    -webkit-animation-direction: alternate; 
+    animation: myfirst 4s infinite;
+    animation-direction: alternate;	
+}
+@keyframes myfirst {
+    0%   {background: red; left: 0px; top: 0px;}
+    25%  {background: purple; left: 60px; top: 0px;}
+    50%  {background: blue; left: 60px; top: 40px;}
+    75%  {background: green; left: 0px; top: 40px;}
+    100% {background: red; left: 0px; top: 0px;border-radius: 50%;}
+}
+
 .btn2 {
     display:block; 	
 }
