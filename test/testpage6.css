@@ -147,3 +147,11 @@ footer p:hover{
 .ham.active {
   left: 180px;
 }
+li:hover{
+  background-color:#020202;
+  text-decoration:underline;
+}
+li{
+  text-indent:30px;
+  
+}
