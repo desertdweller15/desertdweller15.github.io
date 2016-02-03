@@ -14,6 +14,9 @@
    $(document).ready(function(){
     $("button").click(function(){
         alert("Use the force!");
+    $('.menu a, .nav a').on('click', function() {
+  $('.ham').toggleClass('active');    
+        
     });
 });
 
