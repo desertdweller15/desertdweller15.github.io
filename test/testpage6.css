@@ -151,7 +151,7 @@ footer p:hover{
 
 
 .ham.active {
-  right: 180px;
+  left: 180px;
 }
 li:hover{
   background-color:#020202;
