@@ -132,6 +132,7 @@ footer p:hover{
 	color:#B6B698;
      }
 .ham {
+  width:10%;
   position: absolute;
   top: 0;
   right: 0;
