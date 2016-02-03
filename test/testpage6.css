@@ -161,3 +161,25 @@ li{
   text-indent:30px;
   
 }
+
+.menu {
+  width: 4%;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  background-color: #ccc;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#333), to(#222));
+  background-image: -webkit-linear-gradient(top, #333, #222);
+  background-image: -moz-linear-gradient(top, #555, #222);
+  background-image: linear-gradient(to bottom, #222, #191919);
+}
+
+.menu a {
+  padding: 8px;
+  color: #eee;
+  font-size: 27px;
+  line-height: 40px;
+  text-indent: 8px;
+  text-decoration: none;
+  text-shadow: 0 -1px 0 #000;
+}
