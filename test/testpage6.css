@@ -130,3 +130,59 @@ footer p{
 footer p:hover{
 	color:#B6B698;
      }
+a:hover{
+  color:#ccc;
+}
+
+.ham {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0px;
+  overflow: hidden;
+  background-color: #aaa;
+ 
+  -webkit-transition: all 500ms;
+  -moz-transition: all 500ms;
+  transition: all 500ms;
+}
+
+.ham.active {
+ left: 180px;
+}
+
+
+li:hover{
+  background-color:#020202;
+  text-decoration:underline;
+}
+li{
+  text-indent:30px;
+  
+}
+
+
+
+}
+
+
+
+.menu {
+  width: 40%;
+  background-color:#fff;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+ 
+}
+
+.menu a {
+  padding: 8px;
+  background-color: #ccc;
+  font-size: 27px;
+  line-height: 40px;
+  text-indent: 8px;
+  text-decoration: none;
+  text-shadow: 0 -1px 0 #000;
+}
