@@ -18,12 +18,16 @@ body{
 
 .wrapper{
 
-    background-color:#161616;
+        background-color:#161616;
 	opacity: .8;
 	max-width:1100px;
 	margin:0 auto;
 }
-
+header{
+	
+	float:left;
+	
+}
 img{
 	opacity:.9;	
 }
