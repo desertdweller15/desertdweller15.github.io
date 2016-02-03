@@ -7,7 +7,10 @@ p + a { margin-top:1.5em; }
 article + article { margin-top:1em; }
 
 body{
-	
+	background-image:url('http://universe-beauty.com/albums/userpics/1/7/stars-and-planets-photo-img376-JPG.jpg');
+	background-attachment:fixed;
+	background-size:cover;
+	background-repeat: no-repeat;
 	font-size:16px;
 	font-family: 'Roboto', sans-serif;
 	font-weight:50;
@@ -168,10 +171,7 @@ li{
   background-image: -webkit-linear-gradient(top, #333, #222);
   background-image: -moz-linear-gradient(top, #555, #222);
   background-image: linear-gradient(to bottom, #222, #191919);
-  	background-image:url('http://universe-beauty.com/albums/userpics/1/7/stars-and-planets-photo-img376-JPG.jpg');
-	background-attachment:fixed;
-	background-size:cover;
-	background-repeat: no-repeat;
+  
 }
 
 .menu a {
