@@ -1,21 +1,91 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<title>Test Page 2</title>
-	<link rel="stylesheet" type="text/css" href="testpage2.css">
-	<script type="text/javascript" src="script.js"></script>
+
+<meta charset="utf-8">
+<title>Test Page 2</title>
+<link rel="stylesheet" type="text/css" href="testpage2.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	
+<script>
+  $(document).ready(function(){
+     $(".btn1").click(function() {
+    	$( "#one" ).css({"border-radius":"50%"});
+    });
+    $(".btn2").click(function(){
+        $( "#one" ).css({"background-color":"#990000"});
+    });
+      $(".btn3").click(function(){
+        $( "#two" ).css({"border-radius":"50%"});
+    });
+    $(".btn4").click(function(){
+       $( "#two" ).css({"background-color":"#660066"});
+    });
+      $(".btn5").click(function(){
+        $("#three").css({"border-radius":"50%"});    
+    });
+    
+    $(".btn6").click(function(){
+        $("#three").css({"float":"right", "background-color":"#00ff00"});    
+    });
+    
+    $(".btn4").mouseover(function(){
+        $(".btn4").css("background-color", "#E69400");    
+    });
+    $(".btn4").mouseout(function(){
+        $(".btn4").css("background-color", "#D9D9D9");
+    });    
+    $(".btn3").mouseover(function(){
+        $(".btn3").css("background-color", "#E69400");
+    });
+    $(".btn3").mouseout(function(){
+        $(".btn3").css("background-color", "#D9D9D9");
+    });
+    $(".btn2").mouseover(function(){
+        $(".btn2").css("background-color", "#FF0000");
+    });   
+    $(".btn2").mouseout(function(){
+        $(".btn2").css("background-color", "#D9D9D9");
+    });
+});	
+	
+	
+	
+</script>	
+	
 </head> 
 <body>
+	
+	<div class="switch">
+      <input type="radio" class="switch-input" name="view" value="yes" id="yes">
+      <label for="yes" class="switch-label switch-label-off">Happy</label>
+      <input type="radio" class="switch-input" name="view" value="no" id="no">
+      <label for="no" class="switch-label switch-label-on">Holidays!</label>
+      <span class="switch-selection"></span>
+      </div>
+	
 	<div id="one"></div>
+	<p>Box 1</p>
+	<button class="btn1">Box1 btn1</button>
+	<button class="btn2">Box1 btn2</button>
+	
 	<div id="two"></div>
+	<p>Box 2</p>
+	<button class="btn3">Box2 btn1</button>
+	<button class="btn4">Box2 btn2</button>
+	
 	<div id="three"></div>
-	<div id="four"></div>
-	<div id="five"></div>	
-	<div id="six"></div>	
-	<div id="seven"></div>
-	<div id="eight"></div>
-	<div id="nine"></div>
+	
+	<p>Box 3</p>
+	<button class="btn5">Box3 btn1</button>
+	<button class="btn6">Box3 btn2</button>
+	
+
+
+    <p>**Click your browser's refresh button to rest the page to its default state.</p>  
+      
+	<div id="four"></div>	
+	
 </body>
 </html>
 

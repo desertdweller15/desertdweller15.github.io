@@ -1,104 +1,130 @@
-div {
-    height:200px;
-    width:200px;
-    display:block;
-    padding:.2em;
-    border-radius:100%;
+body{
+   background-color:#E5E5E5;	
+}
 
+div {
+    height:90px;
+    width:90px;
+    margin:2em;
 }
 div:hover{
 	opacity:0.8;
 }
 #one {
     background-color:#FF0000;
-    display: inline-block;
+    display:block;
+    
 }
 
 #two {
     background-color:#0000FF;
-     display: inline-block;
+    display:block;
+     
 }
 
 #three {
     background-color:#E2BE22;
-     display: inline-block;
+    display:block;
+     
+}
+#four{
+	
+width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    -webkit-animation: myfirst 2s infinite; 
+    -webkit-animation-direction: alternate; 
+    animation: myfirst 2s infinite;
+    animation-direction: alternate;	
+}
+@keyframes myfirst {
+    0%   {background: red; left: 0px; top: 0px;}
+    25%  {background: purple; left: 10px; top: 10px; bottom:0px;}
+    50%  {background: blue; left: 10px; top: 10px; bottom:0px;}
+    75%  {background: green; left: 0px; top: 10px;bottom:0px;}
+    100% {background: red; left: 0px; top: 0px;border-radius: 50%;}
 }
 
-#four {
-    background-color:#008800;
-     display: inline-block;
+.btn2 {
+    display:block; 	
 }
-#five {
-    background-color:#660033;
-    display: inline-block;
-}
-#six {
-    background-color:#66FF66;
-    display: inline-block; 
-}
-#seven {
-    background-color:#000;
-    display: inline-block;
-    
-}
-#eight {
-    background-color:#666;
-    display: inline-block; 
-}
-#nine{
-	background-color:#669900;
-	display: inline-block;
-	  
-
-@media only screen and (max-width: 800px) {
-div {
-    height:200px;
-    width:200px;
-    display:inline-block;
+.btn3{
+    display:block;	
+}	  
+.btn6{
+    display:block;	
 }
 
-#one {
-    width:100%;
-    display: block;
+button{
+    margin:.75em;	
+	
 }
 
-#two {
-    width:100%;
-    display: block;
+.switch {
+  font-family: sans-serif;
+  position: relative;
+  margin: 20px auto;
+  height: 30px;
+  width: 120px;
+  background-image: -webkit-linear-gradient(hsla(0,0%,0%,.1), hsla(0,0%,100%,.1)), -webkit-linear-gradient(left, #82c874 50%, #d95044 50%);
+  border-radius: 3px;
+  box-shadow: inset 0 1px 4px hsla(0,0%,0%,.5), inset 0 0 10px hsla(0,0%,0%,.5);
+float:right;
 }
 
-
-#three {
-    width:100%;
-    display: block;
+.switch-label {
+  position: relative;
+  z-index: 2;
+  float: left;
+  width: 58px;
+  line-height: 30px;
+  font-size: 11px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.45);
+  cursor: pointer;
 }
 
+.switch-label:active { font-weight: bold; }
+.switch-label-off { padding-left: 2px; }
+.switch-label-on { padding-right: 2px; }
+.switch-input { display: none; }
 
-#four {
-    width:100%;
-    display: block;
+.switch-input:checked + .switch-label {
+  font-weight: normal;
+  color: #fff;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+  -webkit-transition: 0.15s ease-out;
+  -moz-transition: 0.15s ease-out;
+  -o-transition: 0.15s ease-out;
+  transition: 0.15s ease-out;
 }
-#five {
-       width:100%;
-       display: block;
-}
-#six {
-       width:100%;
-       display: block;
+.switch-input:checked + .switch-label-on ~ .switch-selection {
+  left: 60px;
+  border-radius: 0 3px 3px 0;
 
-}
-#seven {
-        width:100%;
-        display: block;
-}
-
-#eight {
-        width:100%;
-        display: block;
 }
 
-#nine {
-        width:100%;
-        display: block;
+.switch-selection {
+  display: block;
+  position: absolute;
+  z-index: 10;
+  top: 0px;
+  left: 0px;
+  width: 58px;
+  height: 28px;
+  background: #c9c9c9 url('http://akwright.com/images/dots.png') no-repeat center center;
+  border: 1px solid #999;
+  border-radius: 3px 0 0 3px;
+  -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.5), 0 0 2px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.5), 0 0 2px rgba(0, 0, 0, 0.2);
+  -webkit-transition: left 0.15s ease-out;
+  -moz-transition: left 0.15s ease-out;
+  -o-transition: left 0.15s ease-out;
+  transition: left 0.15s ease-out;
+  pointer-events: none;
 }
-}
+
+p { margin-left: 30px;}

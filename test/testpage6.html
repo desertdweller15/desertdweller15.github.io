@@ -3,16 +3,20 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="Star Wars, sci-fi movie, movie promotion, Force Awakens, etc.">
 	<title>Star Wars</title>
 	<link rel="stylesheet" type="text/css" href="testpage6.css">
 	<link rel="stylesheet" type="text/css" href="responsive3.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	
-	<script>
-     $(document).ready(function(){
+<script>
+    
+   $(document).ready(function(){
     $("button").click(function(){
         alert("Use the force!");
-   
+    $('.menu a, .nav li').on('click', function() {
+  $('.ham').toggle();    
+        
     });
 });
 
@@ -21,13 +25,15 @@
 
 </head>
 
-<body>
+
 <header>
 
+</header>
+<body>  
 
-</header>	
 <div class="wrapper">
-	
+
+
 <div id= "logo" align="center">
 	
 	<img src="../test/pictures/starwars_logo.png" alt="Star Wars Logo" title="Star Wars Logo">
@@ -37,7 +43,7 @@
 		
 	<div id= "video" align="center">
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/yRraDaUP1ug?rel=0" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wCc2v7izk8w" frameborder="0" allowfullscreen></iframe>
 
 		
 	</div>

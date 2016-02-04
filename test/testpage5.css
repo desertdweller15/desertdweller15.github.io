@@ -18,7 +18,11 @@ p{
 
 .wrapper {
 	
+<<<<<<< HEAD
 	background-color:#D6D6D6;
+=======
+	background-color:#DEDEDE;
+>>>>>>> origin/master
 	max-width:1100px;
 	margin:0 auto;
 }
@@ -148,6 +152,12 @@ footer p:hover{
 	color:#B6B698;
 }
 
+<<<<<<< HEAD
 	
+=======
+hr{
+       width:0%;	
+}	
+>>>>>>> origin/master
 
 
