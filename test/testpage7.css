@@ -1,0 +1,130 @@
+@import url( http://fonts.googleapis.com/css?family=Raleway:200,600 );
+
+
+body {
+  margin: 0;
+  overflow: hidden;
+  font: 14px/1.6em 'Raleway', sans-serif;
+  background: #222;
+}
+
+.wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  background-color: #bf192f;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#bf192f), to(#6d1018));
+  background-image: -webkit-linear-gradient(top, #bf192f, #6d1018);
+  background-image: -moz-linear-gradient(top, #bf192f, #6d1018);
+  background-image: linear-gradient(to bottom, #bf192f, #6d1018);
+  -webkit-transition: all 500ms;
+  -moz-transition: all 500ms;
+  transition: all 500ms;
+}
+
+.wrapper.active {
+  left: 190px;
+}
+
+
+.menu {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  background-color: #222;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#333), to(#222));
+  background-image: -webkit-linear-gradient(top, #333, #222);
+  background-image: -moz-linear-gradient(top, #333, #222);
+  background-image: linear-gradient(to bottom, #333, #191919);
+}
+
+.menu a {
+  padding: 8px;
+  color: #eee;
+  font-size: 27px;
+  line-height: 40px;
+  text-indent: 8px;
+  text-decoration: none;
+  text-shadow: 0 -1px 0 #000;
+}
+
+img{
+
+  border-radius: 80%;
+  padding:40px 20px 30px 30px; 
+}
+
+.nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: #eee;
+}
+
+.nav li {
+  padding: 0 8px;
+  line-height: 40px;
+  border-bottom: 1px solid #333;
+
+}
+
+.nav li:hover {
+  text-decoration:underline; 
+ }
+.nav li:first-child {
+  color: #fad002;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.nav li:first-child:hover {
+  text-decoration:none; 
+}
+
+.nav a {
+  color: #eee;
+  text-decoration: none;
+}
+
+p{
+  font-size: 1.3em;
+  color:#ccc;
+  padding:5px;
+}
+h2{
+  padding:5px;
+}
+.examples p{
+
+  display:inline-block;
+  color:#999;
+}
+
+a{
+
+  color:#999;
+  font-size: 1.3em; 
+}
+
+.wrapper {
+  
+  background-color:#ddd;
+  margin:0 auto;
+}
+.examples p{
+        display:inline-block;
+}
+
+footer p:hover{
+  color:#B6B698;
+}
+
+footer p{
+  text-align:center;
+}
+
+button{
+  padding:5px;
+}
