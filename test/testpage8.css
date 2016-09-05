@@ -1,0 +1,94 @@
+body{
+background:-webkit-linear-gradient(#BAC983, #BFBFB5);
+}
+
+img{
+display:block;
+height:110px;
+width:110px;
+border-radius:50%;
+margin-left:auto;
+margin-right:auto;
+padding-top:10px;
+}
+
+.wrapper{
+width:90%;
+background-color: yellow;
+margin: 0 auto;
+opacity: 0.8;
+
+}
+
+.about{
+  width:100%;
+  background-color:white;
+  /*border:red solid 5px;*/
+}
+.about p{
+  margin: 0 auto;
+  width:80%;
+}
+.about h2{
+  text-align: center;
+}
+
+.purpose h2{
+  text-align: center;
+}
+
+nav ul{
+  display: inline-block;
+  text-align: center;
+}
+
+nav{
+  width:90%;
+  height:40px;
+  margin: 0 auto;
+  background-color: orange;
+  border-bottom-left-radius:30px;
+  border-bottom-right-radius:30px;
+  opacity: 0.9;
+}
+
+nav a:hover{
+color:white;
+}
+button{
+  width:30px;
+}
+
+.btn2{
+  width:70px;
+}
+.btn3{
+  width:70px;
+}
+.btn4{
+  width:80px;
+}
+.purpose{
+  background-color: gold;
+}
+.purpose #contact{
+  text-align:left;
+}
+.purpose h2{
+  text-align:left;
+}
+footer p{
+  text-align: center;
+}
+footer p{
+  background-color: #C4961A;
+  text-align: center;
+  width:80%;
+  margin: 0 auto;
+  font-size:15px;
+  border-top-left-radius:30px;
+  border-top-right-radius:30px;
+}
+#examples p{
+  display: inline-block;
+}
