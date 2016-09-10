@@ -9,12 +9,12 @@ nav{
   width: 90%;
 }
 
-
 @media only screen and (max-width:699px) {
 nav ul{
   margin: 2px;
   font-size: 15px;
   padding-top: 15px;
+  margin: -5px;
 }
 
 nav{
@@ -28,9 +28,10 @@ nav{
 
 @media only screen and (max-width:499px) {
 nav ul{
-  margin: .02px;
+
   font-size: 12px;
-  padding-top: 15px;
+  padding-top: 12px;
+  text-align: left;
 }
 nav{
   width: 90%;
@@ -40,4 +41,26 @@ nav{
   text-align: left;
   font-size:14px;
   width: 90%;
+}
+
+@media only screen and (max-width:399px) {
+nav ul{
+  font-size: 12px;
+  padding-top: 20px;
+  margin: -10px;
+}
+nav{
+  width: 90%;
+}
+
+.about p{
+  text-align: left;
+  font-size:14px;
+  width: 90%;
+}
+
+#headerpic{
+  width:40%;
+  height: 130px;
+
 }
