@@ -6,10 +6,10 @@ $(document).ready(function(){
     alert("Thanks for visiting my webpage!");
   });
   $('.btn3').click(function(){
-    $("img").fadeOut(2000);
+    $("#brianpic").fadeOut(2000);
   });
   $(".btn4").click(function(){
-    $("img").fadeIn(2000);
+    $("#brianpic").fadeIn(2000);
   });
   $(".btn4").mouseover(function(){
     $('.btn4').css("background-color", "#E69400");
