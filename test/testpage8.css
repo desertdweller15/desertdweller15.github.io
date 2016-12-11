@@ -1,0 +1,106 @@
+body{
+background:-webkit-linear-gradient(#BAC983, #BFBFB5);
+position: : relative;
+}
+
+#brianpic{
+display:block;
+height:110px;
+width:110px;
+border-radius:50%;
+margin-left:auto;
+margin-right:auto;
+padding-top:20px;
+}
+
+.wrapper{
+width:90%;
+background-color: yellow;
+margin: 0 auto;
+opacity: 0.8;
+
+}
+#headerpic{
+  width:30%;
+  height: auto;
+  margin-left:auto;
+  margin-right:auto;
+  display: block;
+}
+.about{
+  width:100%;
+  background-color:#ddd;
+  /*border:red solid 5px;*/
+}
+.header{
+  width:90%;
+  background:#E7C71A;
+  margin: 0 auto;
+}
+.about p{
+  margin: 0 auto;
+  width:80%;
+}
+.about h2{
+  text-align: center;
+}
+
+.purpose h2{
+  text-align: center;
+}
+
+nav ul{
+  display: inline-block;
+  text-align: center;
+}
+
+nav{
+  width:70%;
+  height:40px;
+  margin: 0 auto;
+  background-color: orange;
+  opacity: 0.9;
+  padding-top: -30px;
+}
+
+nav a:hover{
+color:white;
+}
+button{
+  width:30px;
+}
+
+.btn2{
+  width:70px;
+}
+.btn3{
+  width:70px;
+}
+.btn4{
+  width:80px;
+}
+.purpose{
+  background-color: #E7AF61;
+  height: auto;
+}
+.purpose #contact{
+  text-align:left;
+}
+.purpose h2{
+  text-align:left;
+}
+footer p{
+  text-align: center;
+}
+footer p{
+  background-color: #C4961A;
+  text-align: center;
+  width:80%;
+  margin: 0 auto;
+  font-size:15px;
+  border-top-left-radius:30px;
+  border-top-right-radius:30px;
+}
+#examples p{
+  display: inline-block;
+}

@@ -1,0 +1,26 @@
+
+#Submitbutton:hover{
+  background-color:#aaa;
+  cursor:pointer;
+}
+
+#Clearbutton:hover{
+  background-color:#FF0;
+  cursor:pointer;
+}
+#Submitbutton, #Clearbutton{
+  margin-top: 40px;
+
+}
+
+.comment{
+  width: 165px;
+}
+
+.firstname{
+  float:left;
+}
+
+.lastname{
+  float:left;
+}
