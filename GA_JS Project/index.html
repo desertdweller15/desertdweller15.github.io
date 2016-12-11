@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>Monk's Cafe</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" type="text/css" rel="stylesheet">
+   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" rel="stylesheet" >
+   <link href="style.css" type="text/css" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
+   
+</head>
+<body>
+
+	<!-- title -->
+	<div class="container-fluid title">
+		<div class="row">
+		
+	<span class="ham-menu"> &#9776; 
+       
+    
+    <nav>
+   
+	    <ul><a href="#reservations">Reservations</a></ul>
+	    <ul><a href="#where">Map</a></ul>
+	    <ul><a href="#reviews">Reviews</a></ul>
+	   
+    </nav>
+
+	</span>
+			<h1>Monk's Cafe</h1>
+			<h5>"The Coffee Shop"</h5>	
+		</div>
+	</div>
+		<!-- /title -->
+
+	<!-- hero image -->
+	<div class="container-fluid hero">
+		<div class="row"></div>
+	</div>
+	<!-- /hero image -->
+
+	
+	<!-- reservation -->
+
+	<div class="container reservation">
+		<div id="reservations"> 
+			
+			<h1>Reservations</h1>
+
+		</div>
+
+		<div class="row">
+			
+			<!-- make reservation -->
+			<div class="col col-md-6 col-xs-12">
+				<div class="box make-reservation">
+					<h4>Make a Reservation</h4>
+					
+					<form class="reservation-form">
+					<div class="row">
+						<div class="col col-xs-2 text">Name</div>
+						<div class="col col-xs-10 field"><input type="text" class="form-control reservation-name" placeholder="Please fill in your name">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col col-xs-2 text">Day</div>
+						<div class="col col-xs-10 field"><input type="text" class="form-control reservation-date" placeholder="DD MM YYYY">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col col-xs-2 text">&nbsp;</div>
+						<div class="col col-xs-10 field"><button class="btn btn-primary btn-md reservation-button">Confirm</button> <span class="text-danger error"></span></div>
+
+					</div>
+					</form>
+
+				</div>
+			</div>
+
+       
+			<!-- /make reservation -->
+			
+			<!-- existing reservations -->
+			<div class="col col-md-6 col-xs-12">
+				<div class="box existing">
+					
+					<h4>Existing Reservations</h4>
+					
+					<div class="iframe">
+					<table class="table">
+						<thead>
+							<tr>
+							<th>Name</th>
+							<th>Day</th>
+							</tr>
+						</thead>
+						<tbody class="reservations">
+						</tbody>
+					</table>
+					</div>
+					
+					<!-- Print results using handlebars -->
+					<script id="reservation-template" type="text/x-handlebars-template">
+						<tr data-id="{{reservationId}}">
+						<td>{{name}}</td>
+						<td>{{date}}</td>
+						<td class="fa fa-trash-o delete" aria-hidden="true"></td>
+						<!-- <td><i class="fa fa-trash-o delete" aria-hidden="true"></i></td> -->
+						</tr>
+					</script>
+					<!-- /Print results using handlebars -->
+				</div>
+			</div>
+			<!-- /existing reservation -->
+
+		</div>
+	</div>
+
+	<!-- /reservation -->
+
+	<!-- map -->
+	<div id="where"> 
+	
+		<div class="container map">
+			<div class="row">
+			
+			<div id="where"> 	
+				<h1>Come dine with us</h1>
+				
+	       </div>
+				<div id="map"></div>
+				<div class="hours">
+					<div class="results"></div>
+					<div class="status"></div>
+			</div>
+		</div>
+	</div>
+
+	<!-- /map -->
+
+	<!-- reviews -->
+	<div class="container reviews">
+         
+             <img src="https://media.giphy.com/media/zvJhJ6emwPdaU/giphy.gif" style="margin-left:auto;
+margin-right:auto; display:block;">
+
+         <div id="reviews"> 
+			<h1>Customer Reviews</h1>
+     </div>
+		<div class="row">
+			<div class="col col-md-5 col-xs-12 customer-photo">
+					<img src="imgs/customer.jpg" title="Big ass salad">
+					<img src="imgs/soup-nazi.jpg" title="No soup for you!">
+			</div>
+			<div class="col col-md-7 col-xs-12 customer-review">
+				<div class="text">
+				"Big lettuce, big carrots, tomatoes like volleyballs."</span>
+				<span>- Jarry Seinfeld, on The BIG Salad</span>
+				<div class="text">
+				"No soup for you!"</span>
+				<span>- Soup Nazi </span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- /reviews -->
+
+	<!-- footer -->
+	<footer class="container-fluid">
+	Copyright © Monk's Cafe
+	</footer>
+	<!-- /footer -->
+
+<script src="https://www.gstatic.com/firebasejs/3.6.2/firebase.js"></script>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.6/handlebars.min.js"></script>
+<script src="./main.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDslUPcaQq9UU-K0rzV3ARSkbmOa8T2rlk&callback=initMap"></script>
+
+
+</body>
+</html>
